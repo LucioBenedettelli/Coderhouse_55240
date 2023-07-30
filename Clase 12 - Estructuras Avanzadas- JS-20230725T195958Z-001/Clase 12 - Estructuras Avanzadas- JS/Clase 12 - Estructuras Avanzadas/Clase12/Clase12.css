@@ -1,0 +1,57 @@
+.button{
+    color: #a780ff;
+    height: 36px;
+    padding: 0 16px;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    border-radius: 24px;
+}
+.button:hover{
+    background-color: #a780ff;
+    color: #fff;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgb(68 68 68 / 20%);
+    padding: 5px;
+    border-radius: 1rem;
+}
+.cardCarrito{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    box-shadow: 0 4px 8px rgb(68 68 68 / 20%);
+    padding: 5px;
+    border-radius: 1rem;
+    width: 450px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+#listProductos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+#total{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgb(68 68 68 / 20%);
+    padding: 5px;
+    border-radius: 1rem;
+    width: 450px;
+}
